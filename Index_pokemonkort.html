@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Cartes jeux</title>
+  <style>
+  @property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+penga {
+  counter-set: num var(--num);
+  transition: --num 4s;
+  font-size: 40px;
+}
+penga::after {
+  content: counter(num) "€";
+}
+penga:hover {
+  --num: 188423;
+}
+    
+  </style>
+
+</head>
+  <body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <header>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="pokemongames.html">Jeux</a>
+        <a href="Index_pokemonkort.html">Cartes</a>
+        <a href="Anime.html">Anime</a>
+      </nav>
+    </header>
+    <br>
+    <main>
+      <table>
+        <thead>
+          <th colspan="2"><h1>Jeu de cartes à collectionner Pokémon</h1></th>
+        </thead>
+        <tr>
+          <td colspan="2"><h2>Les règles</h2></td>
+        </tr>
+        <tr>
+          <td><p>Pour jouer à Pokémon Trading Card Game, il faut :</p>
+            <li>un deck de 60 cartes pour chaque joueur (ou 40 cartes pour les tournois dits « limités », comme lors des Prereleases).</li>
+            <li>un dé, une pièce ou un jeton permettant de jouer à pile ou face. En tournois officiels, seul l'usage de pièces Pokémon ou de dés à 6 faces est autorisé.</li>
+            <li>des marqueurs de dégâts.</li>
+            <li>des marqueurs poison et brûlure.</li>
+            <li>un marqueur « GX ».</li>
+            <li>un plateau de jeu (pour les débutants).</li></td>
+          <td><img src="pokecard.png" width="100" heigth="100"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><h3>Le deroulement </h3> 
+            <tr>
+              <td colspan="2"><p>Les cartes défaussées ne peuvent être remises en jeu, sauf si l'effet d'une carte en dit autrement. C'est là que vont les cartes déjà utilisées, les Pokémon K.O. et les cartes excédentaires de la main.</p> <br>
+                <p>Un tour commence quand un joueur pioche et se termine quand il attaque ou déclare qu'il termine son tour sans attaquer.</p>
+                
+                <p>Le moment entre deux tours, appelé « Contrôle Pokémon », permet de vérifier :</p>
+                
+                <ul><li>les États Spéciaux, dans l'ordre suivant : 
+                  <ol>
+                    <li>Empoisonné</li>
+                    <li>Brûlé</li> 
+                    <li>Endormi</li> 
+                    <li>Paralysé</li>
+                  </ol>
+                  <li>Les talents et les effets de cartes Dresseur dont l'effet s'active entre deux tours</li>
+                  <li>Vérifier si des Pokémon sont mis K.O.</li>
+                </ul>
+                <p>Les étapes peuvent être inversées, mais pas mélangées (comme ajouter des dégâts de Poison, appliquer un talent, puis vérifier si un Pokémon est toujours Endormi).</p></td>
+            </tr>
+        </tr>
+        <table>
+          <thead>
+            <tr>
+              <th><h2>La carte Pokemon le plus chers du monde:</h2></th>
+              <th colspan ="2"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="3"><img src="charizard.png" width="100" heigth="100"><td>
+            </tr>
+            <tr>
+              <td><h3>Devinez combien ca vaut ! (Tenir pour voir la reponse) </h3></td>
+              <td><penga></penga></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table> 
+        <h2>L'histoire du jeu Pokemon</h2>
+        <p>Le jeu de cartes à collectionner Pokémon a été créé par Tsunekazu Ishihara, propriétaire de Creatures, à la suite du succès de Pocket Monsters en 19965,16,57. Le jeu de cartes a été exporté avec les autres jeux et la série à l'étranger à partir de début 1999, et a été édité par Wizards of the Coast21,58. Après la sortie de Pokémon Rubis et Saphir, Nintendo a récupéré la propriété des cartes et commencé à se charger de la distribution à travers sa société The Pokémon Company57. Le jeu de cartes Pokémon est pratiqué dans de nombreuses conventions et tournois au Japon, aux États-Unis et en Europe28. En 2007, un jeu de figurines à jouer et à collectionner a été lancé, et accueilli avec enthousiasme par les fans américains57.</p>
+        </main>
+        <hr />
+      <footer>
+        <img
+        class="pokeball"
+        src="pokeball.png"
+        alt="pokeball"
+        height="200"
+        width="200"
+      />
+      </footer>
+      </body>
+
+
+
+

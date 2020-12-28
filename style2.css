@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(255, 0, 55, 0.65);
+}
+
+nav{
+    background-color: rgb(101, 161, 196);
+    text-shadow: 0ex;
+}
+
+a{
+    text-decoration-line: inherit;
+}
+
+.pikachu{
+    margin: 0 10px 0 20px;
+}
+
+.photo_et_text {
+    text-align : center;
+    width : 300px;
+    display: flex;
+    flex-direction:column ;
+    float: right
+} 
+
+.photo_et_text img{
+    display: block;
+}  
+
+.photo_et_text p {
+    position: relative;
+}  
+
+td:hover {
+    background: orange;
+    color: green;
+    } 
+ 
+th {
+    background: red;
+    color: blue;
+} 

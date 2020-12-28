@@ -1,0 +1,35 @@
+#Sasha {
+    width:150px;
+    height:150px;
+}
+#villageimg {
+    width:150px;
+    height:150px;
+}
+.amisimgvertical {
+    width:100px;
+    height:150px;
+}
+.amisimghorizontal {
+    width:150px;
+    height:100px;
+}
+.pokemonsimg {
+    width:100px;
+    height:100px;
+}
+.content {
+    margin: auto;
+    max-width: 1000px;
+}
+.aboutpage {
+    text-align: center;
+}
+nav a:hover {
+    color : black;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
